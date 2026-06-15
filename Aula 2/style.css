@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f6f7;
+    font-family: Arial, sans-serif;
+    display: flex;         
+    flex-direction: column; 
+    align-items: center;   
+    min-height: 100vh;
+}
+
+header {
+    margin: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    color: #047cf5;
+}
+
+p {
+    font-size: 16px;
+    width: 80%;             
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.destaque-interno {
+    background-color: #5ac2c2;
+    padding: 20px;
+    margin: 20px 0;
+    width: 80%;            
+    border-radius: 8px;
+}
+
+.minha-classe {
+    width: 80%;
+    background-color: #297ab4;
+    color: white;         
+    margin: 25px 0;
+    padding: 20px;
+    border: 3px solid #1a5276;
+    border-radius: 12px;
+    text-align: center;
+}
